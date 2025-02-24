@@ -20,3 +20,12 @@ This example is an application that searches for necessary information through t
 
 ## Dependencies
 To find compatible dependency versions, check the pyproject.toml files in the above references.
+
+## Agent Types
+### SELF_ASK_WITH_SEARCH
+A specialized LangChain agent that implements a self-questioning strategy. This agent:
+
+- Implements a recursive self-questioning approach
+- Breaks down complex queries into smaller, searchable questions
+- Uses the provided search tool (GoogleSerperAPIWrapper) to find answers
+- Chains intermediate answers together for the final response
