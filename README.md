@@ -1,7 +1,7 @@
 # Agent
 
 ## Overview
-This example is an application that searches for necessary information through the Google search engine and creates an answer by referring to this information in the LLM application. It uses the [Google Search API service from Serper](https://serper.dev/). To use this service, you need to [sign up and log in at Serper](https://serper.dev/).
+This example is an application that searches for necessary information through the Google search engine and creates an answer by referring to this information in the LLM application. It uses the [Google Search API service from Serper](https://serper.dev/). 
 
 ## Features
 ### Agents with tools:
@@ -19,7 +19,7 @@ This example is an application that searches for necessary information through t
 - [LangChain Version](https://github.com/langchain-ai/langchain/blob/master/libs/community/pyproject.toml)
 
 ## Dependencies
-To find compatible dependency versions, check the pyproject.toml files in the above references.
+To find compatible versions between various dependencies, check the pyproject.toml files of the packages.
 
 ## Agent Types
 ### SELF_ASK_WITH_SEARCH
