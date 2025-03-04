@@ -1,0 +1,8 @@
+#pip install langchain openai 
+atlassian-python-api
+langchain-google-genai
+langchain-core
+#google-ai-generativelanguage
+python-dotenv
+yake
+langchain<1.0.0,>=0.3.19
